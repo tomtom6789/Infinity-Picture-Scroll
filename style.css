@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+
+
+body {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Mynerve, sans-serif;
+    background: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
