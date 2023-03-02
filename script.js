@@ -22,7 +22,7 @@ function imgLoaded(){
     if(imgloadeddd === allImgs){
         ready = true 
         loader.hidden = true
-        console.log(ready)
+        // console.log(ready)
     }
 }
 
@@ -48,7 +48,7 @@ function setAttributes(element, attributes){
 /// Create elements for links & photo, then add to DOM
 function displayPhotos(){
 
-    imgloadeddd = 0
+    imgloadeddd === 0
     allImgs = photosArray.length
     // Run function for each object in PhotosArray
     photosArray.forEach((photo) => {
